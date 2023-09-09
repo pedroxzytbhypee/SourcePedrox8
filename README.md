@@ -14,12 +14,12 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(25, 25, 25),
-			Second = Color3.fromRGB(32, 32, 32),
-			Stroke = Color3.fromRGB(60, 60, 60),
-			Divider = Color3.fromRGB(60, 60, 60),
-			Text = Color3.fromRGB(240, 240, 240),
-			TextDark = Color3.fromRGB(150, 150, 150)
+			Main = Color3.fromRGB(22, 22, 22),
+			Second = Color3.fromRGB(22, 22, 22),
+			Stroke = Color3.fromRGB(255, 255, 255),
+			Divider = Color3.fromRGB(22, 22, 22),
+			Text = Color3.fromRGB(255, 255, 255),
+			TextDark = Color3.fromRGB(170, 0, 0)
 		}
 	},
 	SelectedTheme = "Default",
@@ -1710,7 +1710,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		end
 		return ElementFunction   
 	end  
-	
+
 	--if writefile and isfile then
 	--	if not isfile("NewLibraryNotification1.txt") then
 	--		local http_req = (syn and syn.request) or (http and http.request) or http_request
@@ -1753,9 +1753,9 @@ function OrionLib:MakeWindow(WindowConfig)
 	--		writefile("NewLibraryNotification1.txt","The value for the notification having been sent to you.")
 	--	end
 	--end
-	
 
-	
+
+
 	return TabFunction
 end   
 
